@@ -12,6 +12,7 @@ import com.alibaba.dubbo.rpc.service.GenericService;
  * @author yangbo
  */
 public class DubboCacheUtil {
+
     private static final String CUSTOM_NAME = "_CUSTOM_";
 
     private static final ReferenceConfigCache.KeyGenerator CUSTOM_KEY_GENERATOR = referenceConfig ->
